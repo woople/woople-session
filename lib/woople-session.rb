@@ -1,7 +1,12 @@
-require "woople-session/version"
+require 'rubygems'
+require 'bundler/setup'
+
+require 'woople-session/version'
+require 'woople-session/base'
+require 'woople/tokenizer'
 
 module Woople
-  module Session
-    # Your code goes here...
+  class Session
+    # nothing here on purpose
   end
 end
