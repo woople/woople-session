@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'active_support/core_ext/numeric/time'
+require_relative '../../lib/woople/tokenizer'
 require_relative '../../lib/woople/login_helper'
 
 class FeatureStep
