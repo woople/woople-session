@@ -1,4 +1,5 @@
 require "rubygems"
+require "cgi"
 require "ezcrypto"
 require "base64"
 require "json"
